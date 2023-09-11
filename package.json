@@ -1,0 +1,15 @@
+{
+  "name": "freemedium",
+  "version": "0.0.1",
+  "description": "Firefox extension for viewing Medium articles for free",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs index.js -o dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drew Daniels",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
+}
